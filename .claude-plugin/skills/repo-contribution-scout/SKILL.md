@@ -88,8 +88,13 @@ explaining why it's a good pick.
 
 ### 6. Generate the report
 
-Save the report as a Markdown file named `<repo-name>-contribution-report-<YYYY-MM-DD>.md`
-in the current working directory.
+**Two outputs are required:**
+
+1. **Print the full report directly to the conversation** so the user sees the results immediately
+   without opening a file.
+2. **Archive a copy** as a Markdown file named `<repo-name>-contribution-report-<YYYY-MM-DD>.md`
+   in the current working directory. This serves as a historical record — useful for tracking
+   which issues were available over time and comparing across days.
 
 ## Report structure
 
