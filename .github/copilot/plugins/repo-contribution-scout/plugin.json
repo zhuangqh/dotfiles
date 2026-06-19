@@ -1,0 +1,11 @@
+{
+  "name": "repo-contribution-scout",
+  "description": "Generate daily contribution opportunity reports for open-source GitHub repos. Finds unclaimed issues, scores difficulty, and recommends what to fix.",
+  "version": "1.0.0",
+  "author": {
+    "name": "zhuangqh"
+  },
+  "license": "MIT",
+  "keywords": ["github", "open-source", "contributions", "issues", "daily-report"],
+  "skills": "skills/"
+}
