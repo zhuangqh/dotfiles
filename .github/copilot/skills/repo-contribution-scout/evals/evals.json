@@ -1,0 +1,23 @@
+{
+  "skill_name": "repo-contribution-scout",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "I want to start contributing to vllm. Can you check what issues came up recently that I could pick up? I'm a staff eng working on inference infra.",
+      "expected_output": "A Markdown report file with top recommendations, difficulty scores, and a full issue summary table for vllm-project/vllm",
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "Scout kubernetes/kubernetes for contribution opportunities from the last 24 hours. Save the report to my current directory.",
+      "expected_output": "A Markdown report for kubernetes/kubernetes with scored issues, claimed/PR status, and top picks",
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "hey can you check what's new on langchain-ai/langchain? looking for something I can fix this weekend, ideally something not too hard. I mostly work on LLM serving infra",
+      "expected_output": "A Markdown report for langchain-ai/langchain with recommendations biased toward lower-difficulty issues relevant to LLM/serving infrastructure",
+      "files": []
+    }
+  ]
+}
